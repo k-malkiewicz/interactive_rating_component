@@ -8,7 +8,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Links
 
-- Live Site URL: ()
+- Live Site URL: (https://interactive-rating-comp-km9.netlify.app/)
 
 ## Features
 
