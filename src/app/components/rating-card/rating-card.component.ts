@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-rating-card',
   templateUrl: './rating-card.component.html',
-  styleUrls: ['./rating-card.component.css']
+  styleUrls: ['./rating-card.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class RatingCardComponent {
   selectedRating?: number;
