@@ -1,0 +1,40 @@
+.thank_you_card {
+    width: 25.625rem;
+    background: #1e252f;
+    border-radius: 1.5625rem;
+    margin: 0 auto;
+    padding: 2.8125rem 2.1875rem 2.5rem;
+    text-align: center;
+}
+
+.thank_you_card h2 {
+    font-size: 1.75rem;
+    margin: 1.875rem 0 0;
+}
+
+.thank_you_card p {
+    margin: .625rem 0;
+    line-height: 1.6;
+}
+
+.rating_summary {
+    width: 55%;
+    background: #262f38;
+    color: #fb7413;
+    margin: 1.5625rem auto;
+    padding: .5rem;
+    font-size: .9375rem;
+    border-radius: 1.5625rem;
+}
+
+@media(max-width: 450px) {
+    .thank_you_card {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2.8125rem 1.5625rem 2.5rem;
+    }
+
+    .rating_summary {
+        width: 70%;
+    }
+}

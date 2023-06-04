@@ -1,0 +1,88 @@
+.rating_card {
+    width: 25.625rem;
+    background: #1e252f;
+    border-radius: 1.5625rem;
+    padding: 2.0625rem;
+}
+
+.rating_card img {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    background: #262e38;
+    padding: .875rem;
+    border-radius: 50%;
+}
+
+.rating_card h1 {
+    font-size: 1.75rem;
+    margin: 1.5625rem 0 0;
+}
+
+.rating_card p {
+    margin: .625rem 0 0;
+    line-height: 1.6;
+}
+
+.rating_buttons {
+    margin: 1.9375rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating_btn {
+    background: #262f38;
+    color: #959eac;
+    width: 3.125rem;
+    height: 3.125rem;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.rating_btn:hover {
+    background: #fb7413;
+    color: #fff;
+}
+
+.rating_btn:focus {
+    background: #7c8898;
+    color: #fff;
+}
+
+.submit_btn {
+    width: 100%;
+    background: #fb7413;
+    color: #fff;
+    padding: .875rem 0 .625rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .0938rem;
+    border-radius: 1.5625rem;
+}
+
+.submit_btn.inactive {
+    opacity: .3;
+    pointer-events: none;
+}
+
+.submit_btn:hover {
+    background: #fff;
+    color: #fb7413
+}
+
+.rating_btn,
+.submit_btn {
+    transition: background .5s, color .5s, opacity .5s;
+}
+
+@media(max-width: 450px) {
+    .rating_card {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2.8125rem 1.5625rem 2.5rem;
+    }
+
+    .rating_btn {
+        width: 2.625rem;
+        height: 2.625rem;
+    }
+}

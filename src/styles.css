@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: #141519;
+    font-family: 'Overpass', sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+p {
+    color: #959eac;
+    font-size: .9375rem;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+button {
+    border: none;
+    font-family: 'Overpass', 'sans-serif';
+    cursor: pointer;
+}
