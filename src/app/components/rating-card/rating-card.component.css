@@ -43,7 +43,8 @@
     color: #fff;
 }
 
-.rating_btn:focus {
+.rating_btn:focus,
+.rating_btn.selected {
     background: #7c8898;
     color: #fff;
 }

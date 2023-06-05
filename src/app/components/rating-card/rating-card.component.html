@@ -3,11 +3,11 @@
     <h1>How did we do?</h1>
     <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
     <div class="rating_buttons">
-        <button class="rating_btn" (click)="setRating(1)">1</button>
-        <button class="rating_btn" (click)="setRating(2)">2</button>
-        <button class="rating_btn" (click)="setRating(3)">3</button>
-        <button class="rating_btn" (click)="setRating(4)">4</button>
-        <button class="rating_btn" (click)="setRating(5)">5</button>
+        <button class="rating_btn" (click)="setRating(1)" [ngClass]="1 === selectedRating ? 'selected' : ''">1</button>
+        <button class="rating_btn" (click)="setRating(2)" [ngClass]="2 === selectedRating ? 'selected' : ''">2</button>
+        <button class="rating_btn" (click)="setRating(3)" [ngClass]="3 === selectedRating ? 'selected' : ''">3</button>
+        <button class="rating_btn" (click)="setRating(4)" [ngClass]="4 === selectedRating ? 'selected' : ''">4</button>
+        <button class="rating_btn" (click)="setRating(5)" [ngClass]="5 === selectedRating ? 'selected' : ''">5</button>
     </div>
     <button class="submit_btn" [ngClass]="!selectedRating ? 'inactive' : ''" (click)="ok()">Submit</button>
 </section>
